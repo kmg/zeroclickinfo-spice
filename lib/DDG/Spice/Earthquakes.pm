@@ -10,7 +10,7 @@ spice wrap_jsonp_callback => 1;
 spice is_cached => 0;
 
 handle remainder => sub {
-  return;
+  return '';
 };
 
 1;
